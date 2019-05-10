@@ -1,3 +1,7 @@
 a.cancel {
   text-transform: uppercase !important;
 }
+.fancybox-lock {
+    position: fixed;
+    width: 100%;
+}
