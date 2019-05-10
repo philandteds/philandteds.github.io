@@ -2,8 +2,7 @@ a.cancel {
   text-transform: uppercase !important;
 }
 
-@media (max-width: 767px){
   body.fancybox-lock{position: fixed !important; overflow:hidden !important;}
-}
+
 
 
