@@ -4,4 +4,5 @@ a.cancel {
 .fancybox-lock {
     position: fixed;
     width: 100%;
+   overflow:hidden;
 }
