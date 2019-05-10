@@ -12,8 +12,12 @@ a.cancel {
     top: inherit !important;
 
 }
-@media (max-width: 767px)
+@media (max-width: 767px){
+.fancybox-wrap {
 
+    top: 150px !important;
+
+}
 }
 
 
