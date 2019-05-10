@@ -3,7 +3,7 @@ a.cancel {
 }
 
 @media only screen and (max-width:767px){
-  div.fancybox-wrap{top:21vw}
+  .fancybox-wrap{top: 21vw !important;}
 }
 
 
