@@ -7,6 +7,13 @@ a.cancel {
    overflow-y: hidden;
     -webkit-overflow-scrolling: hidden;
 }
-.fancybox-overlay{height:auto !important}
+.fancybox-wrap {
+
+    top: inherit !important;
+
+}
+@media (max-width: 767px)
+
+}
 
 
