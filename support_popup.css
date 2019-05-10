@@ -4,7 +4,7 @@ a.cancel {
 
 @media only screen and (max-width:767px){
   .fancybox-wrap{top: 21vw !important;}
-  .fancybox-skin{background:red;}
+  .fancybox-skin{background:#000;}
 }
 
 
