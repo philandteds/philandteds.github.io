@@ -7,5 +7,6 @@ a.cancel {
    overflow-y: hidden;
     -webkit-overflow-scrolling: hidden;
 }
+.fancybox-overlay{height:auto !important}
 
 
