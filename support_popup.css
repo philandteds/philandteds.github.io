@@ -6,4 +6,5 @@ a.cancel {
     width: 100%;
 }
 body{overflow-y:hidden !important;}
+h1.reg_heading, .feedback h2{display:none;}
 
