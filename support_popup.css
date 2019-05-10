@@ -1,23 +1,9 @@
 a.cancel {
   text-transform: uppercase !important;
 }
-.fancybox-lock {
-    position: fixed;
-    width: 100%;
-   overflow-y: hidden;
-    -webkit-overflow-scrolling: hidden;
-}
-.fancybox-wrap {
 
-    top: inherit !important;
-
-}
 @media (max-width: 767px){
-.fancybox-wrap {
-
-    top: 150px !important;
-
-}
+  body.fancybox-lock{position: fixed !important; overflow:hidden !important;}
 }
 
 
