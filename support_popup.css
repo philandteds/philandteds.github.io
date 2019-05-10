@@ -5,5 +5,5 @@ a.cancel {
     position: fixed;
     width: 100%;
 }
-body{overflow-y:hideen !important;}
+body{overflow-y:hidden !important;}
 
