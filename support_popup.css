@@ -2,7 +2,9 @@ a.cancel {
   text-transform: uppercase !important;
 }
 
-  body.fancybox-lock{position: fixed !important; overflow:hidden !important;}
+@media only screen and (max-width:767px){
+  div.fancybox-wrap{top:21vw}
+}
 
 
 
