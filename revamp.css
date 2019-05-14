@@ -122,11 +122,15 @@ div {
 	list-style: none;
 }
 
-.carousel-indicators .active {
+.carousel-indicators li .active {
     width: 13px;
     height: 13px;
     margin: 0;
-    background-color: #de0000!important;
+/*     background-color: #de0000!important; */
+}
+
+.carousel-indicators .active {
+	background-color: #de0000!important;
 }
 
 .carousel-indicators li {
