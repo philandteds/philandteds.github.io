@@ -843,3 +843,6 @@ footer {
     background-image: none!important;
 }
 
+.carousel-indicators li {
+	border: 1px solid #de0000!important;
+}
