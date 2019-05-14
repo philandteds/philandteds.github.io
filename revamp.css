@@ -112,27 +112,24 @@ div {
 
 .carousel-indicators {
 	position: absolute;
-    bottom: -30px;
-    left: 50%;
-    z-index: 15;
-    width: 60%;
-    padding-left: 0;
-    margin-left: -30%;
-    text-align: center;
-    list-style: none;
-	border: 1px solid #de0000!important;
+	bottom: -30px;
+	left: 50%;
+	z-index: 15;
+	width: 60%;
+	padding-left: 0;
+	margin-left: -30%;
+	text-align: center;
+	list-style: none;
+	border: 2px solid #de0000!important;
 }
 
-.carousel-indicators li.active {
+.carousel-indicators .active {
     width: 13px;
     height: 13px;
     margin: 0;
     background-color: #de0000;
 }
 
-/* .carousel-indicators li {
-	border: 1px solid #de0000!important;
-} */
 #awards-carousel .carousel-indicators, #awards-carousel-mobile .carousel-indicators  {
 	bottom: 0;
 }
