@@ -251,12 +251,16 @@ ul .btn{
 	background-color: #dbdcdd!important;
 }
 
-.widget p{
+.hd p{
 	
 	color: #5a5a5a;
 }
 
-.widget h5 {
+.footer-menu.mobile ul li {
+	display: none;
+}
+
+.hd h5 {
 	cursor:pointer;
 	padding:10px 0;
 	color: #5a5a5a;
@@ -280,7 +284,7 @@ ul .btn{
     .active .widget_content{
     	display:inline;	
     }
-    .widget h5:after {
+    .hd h5:after {
         content:"+";
         color:#5a5a5a!important;
         width:20px;
@@ -289,9 +293,12 @@ ul .btn{
         text-align:center;
         float:right;
     }
-    .active.widget h5:after {
+    .active div.hd h5:after {
         content:"-";
     }
+    div.col-sm-2.active ul li {
+	display: inline
+	}
 }
 
 .text-xs-left { text-align: left; }
