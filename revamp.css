@@ -24,6 +24,8 @@ body {
 }
 
 @font-face {
+	/* We already have this font in the code base so we do not need to load it again the src again */
+	/* see extension/pt/design/pt/sass/bootstrap/_variables.scss Line 56 for details */
 	font-family: Oblimey;
 	src: url('Oblimey.otf');
 }
@@ -87,7 +89,7 @@ div {
 .carousel-caption-banner-inline-caption h3 {
 	color: #000!important;
 	font-size: 1.5em!important;
-}
+} /* need some indenting to make this more readable */
 }
 
 @media only screen and (max-width: 1100px) {
@@ -185,6 +187,8 @@ div {
 @media (min-width: 500px) and (max-width: 991px) {
   .carousel-inner .active.left { left: -50%; }
   .carousel-inner .active.right { left: 50%; }
+  /* Seems to be mix of tabs and spaces here every company will have a coding standard */
+  /* which you will need to follow */
 	.carousel-inner .next        { left:  50%; }
 	.carousel-inner .prev		     { left: -50%; }
   .carousel-col                { width: 50%; }
