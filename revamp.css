@@ -119,15 +119,19 @@ div {
     margin-left: -30%;
     text-align: center;
     list-style: none;
+	border: 1px solid #de0000!important;
 }
 
-.carousel-indicators .active {
+.carousel-indicators li.active {
     width: 13px;
     height: 13px;
     margin: 0;
     background-color: #de0000;
 }
 
+/* .carousel-indicators li {
+	border: 1px solid #de0000!important;
+} */
 #awards-carousel .carousel-indicators, #awards-carousel-mobile .carousel-indicators  {
 	bottom: 0;
 }
@@ -841,8 +845,4 @@ footer {
 
 .carousel-control.left, .carousel-control.right {
     background-image: none!important;
-}
-
-.carousel-indicators li {
-	border: 1px solid #de0000!important;
 }
