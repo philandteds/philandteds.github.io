@@ -6,7 +6,6 @@ body {
 #body_css_id {
 	width: 100%!important;
 }
-
 #homepage_body_id {
 	margin: auto;
 	max-width: 1630px;
@@ -839,3 +838,8 @@ footer {
 		display:block!important;
 	}
 }
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
