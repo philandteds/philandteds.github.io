@@ -12,10 +12,14 @@ body {
 }
 
 .section-one .section-one-header, .section-two .section-two-header, .section-six .section-six-header, .section-four, .section-five {
-	padding-top: 100px;
+	padding-top: 50px;
 	text-align: center;
 	padding-left: 15px;
 	padding-right: 15px;
+}
+
+@media only screen and (min-wdith: 544px) {
+	padding-top: 100px;
 }
 
 
@@ -843,19 +847,19 @@ footer {
 }
 
 
-@media (min-width: 544px) {
+@media only screen and (min-width: 544px) {
 	#body_css_id .hidden-sm-down {
 		display:block!important;
 	}
 }
 
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
 	#body_css_id .hidden-md-down {
 		display:block!important;
 	}
 }
 
-@media (min-width: 768px){
+@media only screen and (min-width: 768px){
 	#footer-revamp .hidden-md-down {
 		display: block!important;
 	}
