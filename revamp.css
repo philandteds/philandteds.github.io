@@ -848,9 +848,6 @@ footer {
 	}
 }
 
-/* @media (max-width: 768px){
-	#body_css_id .hidden-sm-up
-		 */
 @media (min-width: 768px) {
 	#body_css_id .hidden-md-down {
 		display:block!important;
