@@ -853,13 +853,13 @@ footer {
 					display:block!important;
 				}
 			}
-			@media (min-width: 992px){
+			@media (min-width: 768px){
 				#footer-revamp .hidden-md-down {
 					display: block!important;
 				}
 			}
 			
-			@media (max-width: 992px){
+			@media (max-width: 768px){
 				#footer-revamp .hidden-md-up {
 					display: block!important;
 				}
