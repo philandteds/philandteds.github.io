@@ -25,10 +25,10 @@ body {
 
 @font-face {
 	font-family: Oblimey;
-	src: url('Oblimey.otf');
+/* 	src: url('Oblimey.otf'); */
 }
 
-@font-face {
+/* @font-face {
 	font-family: Oblimey;
 	src: url('Oblimey Bold.otf');
 	font-weight: bold;
@@ -36,7 +36,7 @@ body {
 
 div {
 	font-family: Oblimey;
-}
+} */
 
 .carousel-caption-banner-carousel-caption .btn-lg {
 	font-size: 1em!important
