@@ -296,7 +296,7 @@ ul .btn{
     .active div.hd h5:after {
         content:"-";
     }
-    div.col-sm-2.active ul li {
+    div.col-md-2.active ul li {
 	display: inline
 	}
 }
