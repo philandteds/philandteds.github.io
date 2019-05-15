@@ -877,3 +877,7 @@ sup {
 	vertical-align: baseline!important;
 	top: -.75em!important;
 }
+
+#boyd_css_id .list-unstyled {
+	padding-bottom: 5px;
+}
