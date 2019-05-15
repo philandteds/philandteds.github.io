@@ -853,7 +853,7 @@ footer {
 		display:block!important;
 	}
 }
-@media (min-width: 767px){
+@media (min-width: 768px){
 	#footer-revamp .hidden-md-down {
 		display: block!important;
 	}
