@@ -876,3 +876,36 @@ sup {
 #body_css_id .list-unstyled {
 	padding-bottom: 10px!important;
 }
+
+.footer-social-icon {
+	display: block;
+	text-indent: -9999px;
+  	width: 50px;
+  	height: 50px;
+	filter: grayscale(100%);
+}
+
+.footer-social-icon:hover {
+	filter: none;
+	transition: .1s all ease-in-out;
+}
+
+.footer-social-icon-facebook {
+	background: url("pt-icon-social-facebook-DE0000-64x64.svg");
+	background-size: 50px 50px;
+}
+
+.footer-social-icon-instagram {
+	background: url("pt-icon-social-instagram-DE0000-64x64.svg");
+	background-size: 50px 50px;
+}
+
+.footer-social-icon-pinterest {
+	background: url("pt-icon-social-pinterest-DE0000-64x64.svg");
+	background-size: 50px 50px;
+}
+
+.footer-social-icon-twitter {
+	background: url("pt-icon-social-twitter-DE0000-64x64.svg");
+	background-size: 50px 50px;
+}
