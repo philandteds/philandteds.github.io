@@ -842,14 +842,17 @@ footer {
 }
 
 
-@media (min-width: 767px) {
-	#body_css_id .hidden-sm-down,{
+@media (min-width: 544px) {
+	#body_css_id .hidden-sm-down {
 		display:block!important;
 	}
 }
-		
+
+/* @media (max-width: 768px){
+	#body_css_id .hidden-sm-up
+		 */
 @media (min-width: 768px) {
-	#body_css_id .hidden-md-down,{
+	#body_css_id .hidden-md-down {
 		display:block!important;
 	}
 }
