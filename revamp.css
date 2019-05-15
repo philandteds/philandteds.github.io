@@ -870,3 +870,10 @@ footer {
     background-image: none!important;
 }
 
+sup {
+	position:relative!important;
+	font-size: 40%!important;
+	line-height: 0!important;
+	vertical-align: baseline!important;
+	top: -.75em!important;
+}
