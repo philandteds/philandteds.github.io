@@ -297,7 +297,7 @@ ul .btn{
         content:"-";
     }
     div.col-sm-2.active ul li {
-	display: inline
+	display: inline!important;
 	}
 }
 
