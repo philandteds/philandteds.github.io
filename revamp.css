@@ -158,7 +158,8 @@ div {
 .carousel-col { 
     position: relative; 
     min-height: 1px; 
-    padding: 5px; 
+    padding-left: 40px!important;
+	padding-right: 40px!important;
     float: left;
  }
 
