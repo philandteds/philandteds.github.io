@@ -859,11 +859,11 @@ footer {
 				}
 			}
 			
-			@media (max-width: 768px){
+/* 			@media (max-width: 768px){
 				#footer-revamp .hidden-md-up {
 					display: block!important;
 				}
-			}
+			} */
 
 .carousel-control.left, .carousel-control.right {
     background-image: none!important;
