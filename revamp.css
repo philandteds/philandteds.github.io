@@ -842,13 +842,13 @@ footer {
 }
 
 
-@media (min-width: 544px) {
+@media (min-width: 767px) {
 	#body_css_id .hidden-sm-down,{
 		display:block!important;
 	}
 }
 		
-@media (min-width: 545px) {
+@media (min-width: 768px) {
 	#body_css_id .hidden-md-down,{
 		display:block!important;
 	}
