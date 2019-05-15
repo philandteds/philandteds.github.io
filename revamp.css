@@ -277,7 +277,7 @@ ul .btn{
 	width: 60%;
 }
   
-@media only screen and (max-width: 767px) {    
+@media only screen and (max-width: 768px) {    
      .hd_content{
         display:none;
     }
@@ -843,21 +843,21 @@ footer {
 
 
 @media (min-width: 544px) {
-				#body_css_id .hidden-sm-down,{
-					display:block!important;
-				}
-			}
+	#body_css_id .hidden-sm-down,{
+		display:block!important;
+	}
+}
 			
-			@media (min-width: 768px) {
-				#body_css_id .hidden-md-down,{
-					display:block!important;
-				}
-			}
-			@media (min-width: 768px){
-				#footer-revamp .hidden-md-down {
-					display: block!important;
-				}
-			}
+@media (min-width: 768px) {
+	#body_css_id .hidden-md-down,{
+		display:block!important;
+	}
+}
+@media (min-width: 767px){
+	#footer-revamp .hidden-md-down {
+		display: block!important;
+	}
+}
 			
 /* 			@media (max-width: 768px){
 				#footer-revamp .hidden-md-up {
