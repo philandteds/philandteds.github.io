@@ -853,11 +853,11 @@ footer {
 		display:block!important;
 	}
 }
-@media (min-width: 768px){
+/* @media (min-width: 768px){
 	#footer-revamp .hidden-md-down {
 		display: block!important;
 	}
-}
+} */
 
 .carousel-control.left, .carousel-control.right {
     background-image: none!important;
