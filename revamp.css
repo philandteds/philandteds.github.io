@@ -681,7 +681,7 @@ footer {
 		display: table-row;
 	 }
 	 
-	 .buggy-lineup td div {
+	 .buggy-lineup td div.text-center {
 		 padding-top: 40px!important;
 	 }
 }
