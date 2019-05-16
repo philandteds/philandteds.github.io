@@ -894,8 +894,8 @@ sup {
 .footer-social-icon {
 	display: block;
 	text-indent: -9999px;
-  	width: 50px;
-  	height: 50px;
+  	width: 32px;
+  	height: 32px;
 	filter: grayscale(100%);
 }
 
