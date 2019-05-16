@@ -683,6 +683,7 @@ footer {
 	display: block;
 	width: 50%;
 	padding-right: 15px;
+	padding-bottom: 10px;
 }
 
 .right-img {
@@ -690,6 +691,7 @@ footer {
 	display: inline-block;
 	width: 50%;
 	padding-left: 15px;
+	padding-bottom: 10px;
 	}
 }
 
@@ -784,7 +786,7 @@ footer {
 }
 
 #body_css_id .section-four .container-fluid {
-	padding-bottom: 100px!important;
+	padding-bottom: 50px!important;
 }
 
 
