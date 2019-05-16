@@ -752,12 +752,19 @@ footer {
 	text-decoration: underline;
 }
 
-#body_css_id .awards-slider-review{
+/* #body_css_id .awards-slider-review{
 	font-size: 18px!important;
 }
 
 #body_css_id .awards-slider-name{
 	font-size: 16px!important;
+} */
+
+.awards-carousel-desktop-text {
+	text-align: left;
+	font-size: 18px!important;
+	display: flex;
+    	align-items: center;
 }
 
 #body_css_id .learn-more a{
@@ -767,6 +774,7 @@ footer {
 #body_css_id .awards-carousel-mobile-text {
 /* 	padding-top: 20px!important; */
 	text-align: center;
+	font-size: 18px!important;
 }
 
 #body_css_id .section-one-header h3, #body_css_id .section-four-header h3, #body_css_id .section-five-header h3{
