@@ -699,13 +699,9 @@ footer {
 	}
 }
 
-@media all and (max-width:500px) {
-.left-img {
-	padding: 15px;
-}
-
+@media all and (max-width:767px) {
 .right-img {
-	padding: 15px;
+	padding-top: 30px;
 	}
 }
 
