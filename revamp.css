@@ -761,10 +761,7 @@ footer {
 } */
 
 .awards-carousel-desktop-text {
-	text-align: left;
 	font-size: 18px!important;
-	display: flex;
-    	align-items: center;
 }
 
 #body_css_id .learn-more a{
