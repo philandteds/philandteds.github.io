@@ -19,6 +19,10 @@ body {
 }
 
 
+.section-four {
+	padding-top-200px;
+}
+
 .inline-section-two-header, .inline-section-three-header, .inline-section-four-header, .inline-section-five-header  {
 	text-align: center;
 }
