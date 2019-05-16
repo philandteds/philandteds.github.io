@@ -738,6 +738,8 @@ footer {
 
 #body_css_id .section-two-header p {
 	font-size: 16px!important;
+	padding-top: 10px;
+	padding-bottom:10px;
 }
 
 #body_css_id .buggy-lineup h3  {
