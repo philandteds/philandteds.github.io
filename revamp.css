@@ -823,7 +823,11 @@ footer {
 
 #footer-menu h5 {
 	font-size: 20px!important;
-	padding-top: 8px!important;
+	padding-top: 20px!important;
+}
+
+#footer-mobile .social-icons-row h5 {
+	padding-top: 20px;
 }
 
 #footer-menu .hd_content p {
@@ -854,6 +858,7 @@ footer {
 
 #footer-mobile .footer-icons-subscribe h5 {
 	font-size: 20px;
+	
 }
 
 #footer-mobile .hd_content p {
