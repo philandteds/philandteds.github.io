@@ -673,18 +673,15 @@ footer {
 	padding-top: 2px;
 }
 
- @media all and (max-width:500px) {
-	 .buggy-lineup tr {    display: table;  width:100%;    
+ @media all and (max-width:544px) {
+	.buggy-lineup tr {    
+		display: table;  width:100%;    
 	 }               
-     .buggy-lineup td {    display: table-row; 
+     	.buggy-lineup td {    
+		display: table-row; 
+		padding-top: 40px!important;
 	 }     
 	 
-}
-
-@media all and (min-width:544px) {
-	.buggy-lineup .border-0 {
-		padding-top: 40px;
-	}
 }
 
 @media all and (min-width:768px) {
