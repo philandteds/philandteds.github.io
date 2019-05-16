@@ -765,7 +765,8 @@ footer {
 }
 
 #body_css_id .awards-carousel-mobile-text {
-	padding-top: 20px!important;
+/* 	padding-top: 20px!important; */
+	text-align: center;
 }
 
 #body_css_id .section-one-header h3, #body_css_id .section-four-header h3, #body_css_id .section-five-header h3{
