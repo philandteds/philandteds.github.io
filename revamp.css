@@ -238,9 +238,9 @@ ul .btn{
 }
 
 .footer-top {	
- 	padding-top: 20px;
-	padding-bottom: 20px;
- 	border-top:1px solid #fff;
+ 	padding-top: 30px;
+	padding-bottom: 30px;
+/*  	border-top:1px solid #fff; */
 	background-color: #dbdcdd!important;
 }
 
