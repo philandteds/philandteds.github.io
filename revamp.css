@@ -773,11 +773,11 @@ footer {
 	font-size: 18px!important;
 	padding-left: 15px;
 	padding-right:15px;
-	
-	p {
+}
+
+#body_css_id .awards-carousel-mobile-text p {
 		text-align: center!important;
 	}
-}
 
 #body_css_id .section-one-header h3, #body_css_id .section-four-header h3, #body_css_id .section-five-header h3{
 	font-size: 26px!important;
