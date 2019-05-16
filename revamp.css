@@ -677,12 +677,13 @@ footer {
 	 .buggy-lineup tr {    display: table;  width:100%;    
 	 }               
      .buggy-lineup td {    display: table-row; 
-	 }           
+	 }     
+	 
 }
 
 @media all and (min-width:544px) {
-	.product-img {
-		padding-top: 25px;
+	.buggy-lineup .border-0 {
+		padding-top: 40px;
 	}
 }
 
