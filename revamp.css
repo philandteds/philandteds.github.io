@@ -11,7 +11,7 @@ body {
 	max-width: 1630px;
 }
 
-.section-one, .section-two, .section-six .section, .section-four, .section-five {
+.section-one, .section-two, .section-six, .section-four, .section-five {
 	padding-top: 50px;
 	text-align: center;
 	padding-left: 15px;
@@ -680,6 +680,11 @@ footer {
 	 }           
 }
 
+@media all and (min-width:544px) {
+	.product-img {
+		padding-top: 25px;
+	}
+}
 
 @media all and (min-width:768px) {
 .left-img {
