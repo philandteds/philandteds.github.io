@@ -678,10 +678,12 @@ footer {
 		display: table;  width:100%;    
 	 }               
      	.buggy-lineup td {    
-		display: table-row; 
-		padding-top: 40px!important;
-	 }     
+		display: table-row;
+	 }
 	 
+	 .buggy-lineup td div {
+		 padding-top: 40px!important;
+	 }
 }
 
 @media all and (min-width:768px) {
