@@ -11,7 +11,7 @@ body {
 	max-width: 1630px;
 }
 
-.section-one .section-one-header, .section-two .section-two-header, .section-six .section-six-header, .section-four, .section-five {
+.section-one .section-one-header, .section-two .section-two-header, .section-six .section-six-header, .section-four .section-four-header, .section-five .section-five-header {
 	padding-top: 50px;
 	text-align: center;
 	padding-left: 15px;
