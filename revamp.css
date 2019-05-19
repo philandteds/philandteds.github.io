@@ -891,3 +891,7 @@ footer {
 		display:block!important;
 	}
 }
+
+#about_us_intro #our_story {
+	display: inline-block!important;	
+}
