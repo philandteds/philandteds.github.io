@@ -841,7 +841,7 @@ footer {
     .active .hd_content{
     	display:inline;	
     }
-    .hd h5:after {
+    #footer-menu h5:after {
         content:"+";
         color:#5a5a5a!important;
         width:20px;
@@ -850,7 +850,7 @@ footer {
         text-align:center;
         float:right;
     }
-    .active div.hd h5:after {
+    #footer-menu .active div h5:after {
         content:"-";
     }
     div.col-sm-2.active ul li {
