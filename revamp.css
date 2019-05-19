@@ -391,13 +391,19 @@ ul .btn{
 	background-color: #fff;
 }
 
+.left-img {
+	float: left;
+	display: inline-block;
+	width: 50%;
+	padding-right: 15px;
+	padding-bottom: 10px;
+}
 .right-img {
 	float: right;
 	display: inline-block;
 	width: 50%;
 	padding-left: 15px;
 	padding-bottom: 10px;
-	}
 }
 
 .underlined-text-link {
