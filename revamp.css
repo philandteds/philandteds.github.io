@@ -862,14 +862,6 @@ footer {
     .text-lg-center { text-align: center; }
     .text-lg-justify { text-align: justify; }
 }
-@media all and (max-width:767px) {
-    .left-img {
-	padding-top: 30px;
-    }
-    .right-img {
-	padding-top: 30px;
-    }
-}
 
 @media only screen and (min-width: 544px) {
 	#body_css_id .hidden-sm-down {
