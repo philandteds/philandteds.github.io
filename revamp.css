@@ -9,3 +9,44 @@ footer {
 .timer_blurb {
   max-width: 1630px;
 }
+
+.timer_blurb p {
+    margin: 0 auto;  
+}
+
+@media screen and (max-width: 543px) {
+    
+    .timer_blurb p {
+        font-size: 1.4em;
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 544px) {
+    
+    .timer_blurb p {
+        width: 23%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    
+    .timer_blurb p {
+        width: 20%;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+    
+    .timer_blurb p {
+        width: 20%;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    
+    .timer_blurb p {
+        width: 22%;
+    }
+}
