@@ -1,6 +1,9 @@
 .main-bar.is-invisible {
-    background-image: linear-gradient(#fff 8% , #fff);
+    background-color: transparent;
     height: 100%;
     overflow-y: auto
 }
 
+.main-bar.is-invisible > .container {
+    background-color: #fff;
+}
