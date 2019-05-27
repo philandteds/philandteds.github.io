@@ -15,6 +15,11 @@ body.toggleMenu {
 body.toggleMenu .main-nav {
     overflow: scroll;
     height: calc(100vh - 127px);
+    position: fixed;
+    z-index: 9;
+    top: 138px;
 }
 
-body.toggleMenu .main-bar.is-invisible .main-nav {height:auto;}
+body.toggleMenu .main-bar.is-invisible .main-nav {height:auto; position: inherit;
+    z-index: inherit;
+    top:0;}
