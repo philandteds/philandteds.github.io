@@ -23,3 +23,5 @@ body.toggleMenu .main-nav {
 body.toggleMenu .main-bar.is-invisible .main-nav {height:auto; position: inherit;
     z-index: inherit;
     top:0;}
+
+body {overflow: hidden;}
