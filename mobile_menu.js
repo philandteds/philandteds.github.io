@@ -2,7 +2,7 @@
 console.log ('Start of mobile_menu.js');
 jQuery(document).ready(function(){
     jQuery('button.menu-bars').click(function(){
-    jQuery(body).toggleClass('toggleMenu');
+    jQuery(html).toggleClass('toggleMenu');
   });
 })
 console.log ('End of mobile_menu.js');
