@@ -8,6 +8,13 @@
     background-color: #fff;
 }
 
-html.toggleMenu {
+body.toggleMenu {
   overflow: hidden;
 }
+
+body.toggleMenu .main-nav {
+    overflow: scroll;
+    height: calc(100vh - 127px);
+}
+
+body.toggleMenu .main-bar.is-invisible .main-nav {height:auto;}
