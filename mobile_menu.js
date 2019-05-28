@@ -18,6 +18,6 @@ setInterval(function(){
         jQuery('body').removeClass('toggleMenu')
     } 
 
-}, 500);
+}, 100);
 
 console.log ('End of mobile_menu.js');
