@@ -14,7 +14,7 @@ body.toggleMenu {
 
 body.toggleMenu .main-nav {
     overflow: scroll;
-    height: calc(100vh - 127px);
+    height: calc(100vh - 124px);
     position: fixed;
     z-index: 9;
     top: 138px;
