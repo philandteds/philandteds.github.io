@@ -2,7 +2,7 @@
 console.log ('Start of mobile_menu.js');
 $(document).ready(function(){
     $('button.menu-bars').click(function(){
-    $(document.body).toggleClass('toggleMenu');
+    $('body.en-US').toggleClass('toggleMenu');
   });
 })
 console.log ('End of mobile_menu.js');
