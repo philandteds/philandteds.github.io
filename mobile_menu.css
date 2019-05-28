@@ -12,6 +12,10 @@ body.toggleMenu {
     -webkit-overflow-scrolling: touch;
 }
 
+html {
+    overflow: hidden !important;
+}
+
 body.toggleMenu .main-nav {
     overflow: scroll;
 }
