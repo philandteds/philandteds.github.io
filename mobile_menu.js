@@ -3,10 +3,10 @@ console.log ('Start of mobile_menu.js');
 jQuery(document).ready(function(){ 
         
     jQuery('button.menu-bars').click(function(event){
-        if(jQuery('body').hasClass('toggleMenu')){
-            jQuery('body').removeClass('toggleMenu')
+        if(jQuery('html').hasClass('toggleMenu')){
+            jQuery('html').removeClass('toggleMenu')
         }else{
-           jQuery('body').addClass('toggleMenu') 
+           jQuery('html').addClass('toggleMenu') 
         }
         event.preventDefault();
   });
@@ -15,7 +15,7 @@ jQuery(document).ready(function(){
 setInterval(function(){ 
     
     if(jQuery("#header-nav").css("display")=="none"){
-        jQuery('body').removeClass('toggleMenu')
+        jQuery('html').removeClass('toggleMenu')
     } 
 
 }, 100);
