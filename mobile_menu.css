@@ -14,6 +14,10 @@ body.toggleMenu {
 
 html {
     overflow: hidden !important;
+    position:fixed;
+    top:0px;
+    width:100%;
+        
 }
 
 body.toggleMenu .main-nav {
