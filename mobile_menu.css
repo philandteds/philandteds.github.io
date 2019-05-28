@@ -17,7 +17,7 @@ body.toggleMenu .main-nav {
     height: calc(100vh - 124px);
     position: fixed;
     z-index: 9;
-    top: 138px;
+    top: 111px;
 }
 
 body.toggleMenu .main-bar.is-invisible .main-nav {height:auto; position: inherit;
