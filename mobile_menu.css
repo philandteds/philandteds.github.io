@@ -7,13 +7,24 @@
 .main-bar.is-invisible > .container {
     background-color: #fff;
 }
-html.toggleMenu, html.toggleMenu body {
-  position: relative;
-  height: 100%;
-  overflow: hidden;
-}
 
-html.toggleMenu .main-nav {
-    overflow: scroll;
-    scroll-behavior: smooth;
+
+@media only screen and  (max-width: 991px) {
+@media not all and (min-resolution:.001dpcm) { @media
+{
+       html.toggleMenu, html.toggleMenu body {
+      position: relative;
+      height: 100%;
+      overflow: hidden;
+        }
+
+    html.toggleMenu .main-nav {
+        overflow: scroll;
+        scroll-behavior: smooth;
+    }
+    .main-nav-item > a {
+    height: 57px;
+    line-height: 57px;
+    }
+}
 }
