@@ -8,14 +8,13 @@
     background-color: #fff;
 }
 
-html,
-body {
+body.toggleMenu {
   position: relative;
   height: 100%;
   overflow: hidden;
 }
 
-
 body.toggleMenu .main-nav {
     overflow: scroll;
+    scroll-behavior: smooth;
 }
