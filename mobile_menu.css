@@ -9,7 +9,8 @@
 }
 
 body {
-  overflow: hidden;
+    position: fixed;
+    width: 100%;
 }
 
 body.toggleMenu .main-nav {
