@@ -7,7 +7,7 @@
 .main-bar.is-invisible > .container {
     background-color: #fff;
 }
-html.toggleMenu {
+html.toggleMenu, html.toggleMenu body {
   position: relative;
   height: 100%;
   overflow: hidden;
