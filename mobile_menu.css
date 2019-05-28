@@ -9,18 +9,11 @@
 }
 
 body.toggleMenu {
-    overflow: hidden !important;
+    position: fixed;
+    width: 100%;
 }
 
 body.toggleMenu .main-nav {
     overflow: scroll;
     height: calc(100vh - 124px);
-    position: fixed;
-    z-index: 9;
-    top: 111px;
 }
-
-body.toggleMenu .main-bar.is-invisible .main-nav {height:auto; position: inherit;
-    z-index: inherit;
-    top:0;}
-
