@@ -8,17 +8,13 @@
     background-color: #fff;
 }
 
-body.toggleMenu {
-    -webkit-overflow-scrolling: touch;
+html,
+body {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
 }
 
-html {
-    overflow: hidden !important;
-    position:fixed;
-    top:0px;
-    width:100%;
-        
-}
 
 body.toggleMenu .main-nav {
     overflow: scroll;
