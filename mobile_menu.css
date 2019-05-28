@@ -9,29 +9,8 @@
 }
 
 html.toggleMenu, html.toggleMenu body {
-      position: relative;
-      height: 100%;
       overflow: hidden;
 }
-
-.main-bar{position:relative}
-.main-bar.is-invisible{position:fixed}
-.main-bar.is-invisible .main-nav{z-index:inherit;}
-
-html.toggleMenu .main-nav {
-    width: 100%;
-    height: calc(100vh - 111px);
-    overflow: scroll;
-    top:111px;
-    position:fixed;
-    z-index:9;
-        
-}
-html.toggleMenu .main-bar.is-invisible .main-nav {
-    top: 46px;
-    height: calc(100vh - 7vh);
-}
-html.toggleMenu .main-bar.is-invisible .main-nav{top:46px;}
 
 @media only screen and  (max-width: 991px) {
 @media not all and (min-resolution:.001dpcm) { @media
