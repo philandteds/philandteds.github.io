@@ -1,8 +1,8 @@
 /* Use this JS file for the PT mobile menu scroll issue fix */
 console.log ('Start of mobile_menu.js');
-jQuery(document).ready(function(){
-    jQuery('button.menu-bars').click(function(){
-    jQuery('body').toggleClass('toggleMenu');
+$(document).ready(function(){
+    $('button.menu-bars').click(function(){
+    $(document.body).toggleClass('toggleMenu');
   });
 })
 console.log ('End of mobile_menu.js');
