@@ -8,6 +8,11 @@
     background-color: #fff;
 }
 
+html.toggleMenu, html.toggleMenu body {
+      position: relative;
+      height: 100%;
+      overflow: hidden;
+}
 
 @media only screen and  (max-width: 991px) {
 @media not all and (min-resolution:.001dpcm) { @media
@@ -23,8 +28,8 @@
         scroll-behavior: smooth;
     }
     .main-nav-item > a {
-    height: 57px;
-    line-height: 57px;
+    height: 58px;
+    line-height: 58px;
     }
 }
 }
