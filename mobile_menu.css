@@ -9,11 +9,7 @@
 }
 
 body.toggleMenu {
-    position: fixed;
-    width: 100%;
-    overflow: hidden;
-    top:0px;
-    height: 100%;
+    -webkit-overflow-scrolling: touch;
 }
 
 body.toggleMenu .main-nav {
