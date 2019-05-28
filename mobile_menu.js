@@ -2,7 +2,8 @@
 console.log ('Start of mobile_menu.js');
 jQuery(document).ready(function(){
     
-    jQuery('body').click(function(event){    
+    jQuery('body').click(function(){
+        alert(jQuery('body').hasClass('toggleMenu'));
         if(jQuery('body').hasClass('toggleMenu')){
             jQuery('body').removeClass('toggleMenu')
         }
