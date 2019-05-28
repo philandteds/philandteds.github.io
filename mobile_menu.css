@@ -33,10 +33,11 @@ html.toggleMenu, html.toggleMenu body {
     
     
        html.toggleMenu, html.toggleMenu body {
-      position: relative;
+      position: fixed;
       height: 100%;
       overflow: hidden;
        top:0px;
+       height:100%;
         }
 
     html.toggleMenu .main-nav {
