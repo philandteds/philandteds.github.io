@@ -1,52 +1,17 @@
-footer {
-    background-color: #dbdcdd!important;
-/*     position: absolute; */
-    right: 0;
-    bottom: 0;
-    left: 0;
-}
+/* riding options - edited 30 May */
 
-.timer_blurb {
-  max-width: 1630px;
-}
 
-.timer_blurb p {
-    margin: 0 auto;  
-}
-
-@media screen and (max-width: 543px) {
+#desktop_riding_options_id {
     
-    .timer_blurb p {
-        font-size: 1.4em;
-        width: 50%;
+    #ridingoptions {
+        min-height: 700px;
     }
 }
 
-@media screen and (min-width: 544px) {
+@media only screen and (min-width:768px){
     
-    .timer_blurb p {
-        width: 23%;
+        #desktop_riding_options_id .hidden-md-down {
+        display:block!important
     }
 }
-
-@media screen and (min-width: 768px) {
     
-    .timer_blurb p {
-        width: 20%;
-    }
-}
-
-
-@media screen and (min-width: 992px) {
-    
-    .timer_blurb p {
-        width: 20%;
-    }
-}
-
-@media screen and (min-width: 1300px) {
-    
-    .timer_blurb p {
-        width: 22%;
-    }
-}
