@@ -1,12 +1,8 @@
 /* riding options - edited 30 May */
 
-
-#desktop_riding_options_id {
-    
     #ridingoptions {
         min-height: 700px;
     }
-}
 
 @media only screen and (min-width:768px){
     
