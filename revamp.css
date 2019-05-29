@@ -1,6 +1,6 @@
 /* riding options - edited 30 May */
 
-#desktop_riding_options_id .nav-pills li {
+#desktop_riding_options_id .nav-pills > li.active > a {
         border-radius: 7px 7px 0px 0px;
 }
 
