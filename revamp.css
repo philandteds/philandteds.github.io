@@ -1,8 +1,16 @@
 /* riding options - edited 30 May */
 
-    #ridingoptions {
-        min-height: 700px;
-    }
+#desktop_riding_options_id .nav-pills li {
+        border-radius: 7px 7px 0px 0px;
+}
+
+.nav-header-container h4 {
+    line-height: 1.3em;
+}
+
+#ridingoptions {
+    min-height: 700px;
+}
 
 @media only screen and (min-width:768px){
     
