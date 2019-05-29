@@ -17,7 +17,7 @@ html.toggleMenu, html.toggleMenu body {
 .main-nav {
     width: 100%;
     overflow: scroll;
-    max-height: 500px;
+    max-height: calc(100vh - 28vh);
     height: 100%;
 }
 .main-bar.is-invisible .main-nav{ max-height:inherit;}
