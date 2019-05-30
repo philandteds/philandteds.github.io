@@ -6,7 +6,8 @@ jQuery(document).ready(function(){
         if(jQuery('html').hasClass('toggleMenu')){
             jQuery('html').removeClass('toggleMenu')
         }else{
-           jQuery('html').addClass('toggleMenu') 
+           jQuery('html').addClass('toggleMenu')
+           
         }
         event.preventDefault();
   });
@@ -21,7 +22,15 @@ setInterval(function(){
 }, 100);
 
 console.log ('End of mobile_menu.js');
-jQuery(document).ready(function(){ 
-jQuery('body').bind('touchmove', function(e){e.preventDefault()}); 
- });
+
+
+jQuery(document).ready(function(){     
+    jQuery('button.menu-bars').click(function(event){
+         $('body').bind('touchmove', function(e){e.preventDefault()});                
+  });
+})
+
+
+
+
 
