@@ -26,8 +26,6 @@ html.toggleMenu, html.toggleMenu body {
 @media not all and (min-resolution:.001dpcm) { @media
 {
     
-    
-    .main-header{height:25px;}
     .main-nav{position:relative; z-index:9999;}
    html.toggleMenu .main-nav {
     width: 100%;
