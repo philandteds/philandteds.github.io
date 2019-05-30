@@ -13,13 +13,22 @@
 html.toggleMenu, html.toggleMenu body {
       overflow: hidden;
 }
-
+/*
 .main-nav {
     width: 100%;
     overflow: scroll;
     max-height: calc(100vh - 28vh);
     height: 100%;
-}
+}*/
+    
+ .main-nav {
+    width: 100%;
+    overflow: scroll;
+    height: calc(100vh - 28vh);
+    z-index:9;
+    top:50px;
+}   
+    
 .main-bar.is-invisible .main-nav{ max-height:inherit;}
   
 }
@@ -27,18 +36,12 @@ html.toggleMenu, html.toggleMenu body {
 @media not all and (min-resolution:.001dpcm) { @media
 {
  
-.main-nav {
-    width: 100%;
-    overflow: scroll;
-    height: calc(100vh - 28vh);
-    z-index:9;
-    top:50px;
-}
-   html.toggleMenu .main-nav {
+
+   /*html.toggleMenu .main-nav {
     width: 100%;
     height: auto;
     overflow: scroll;
-}
+}*/
     
     
        html.toggleMenu, html.toggleMenu body {
