@@ -21,6 +21,8 @@ html.toggleMenu, html.toggleMenu body {
     height: 100%;
 }
 .main-bar.is-invisible .main-nav{ max-height:inherit;}
+    #strip{postion:relative;}
+    body{margin-top:0px !important}
 }
 @media only screen and  (max-width: 991px) {
 @media not all and (min-resolution:.001dpcm) { @media
