@@ -24,9 +24,9 @@ html.toggleMenu, html.toggleMenu body {
  .main-nav {
     width: 100%;
     overflow: scroll;
-    height: calc(100vh - 28vh);
+    height: calc(100vh - 28vh) !important;
     z-index:9;
-    top:50px;
+    top:47px;
     position: absolute;
 } 
  .main-bar > .container{ position: relative;}
