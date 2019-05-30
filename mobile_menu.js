@@ -21,3 +21,7 @@ setInterval(function(){
 }, 100);
 
 console.log ('End of mobile_menu.js');
+jQuery(document).ready(function(){ 
+jQuery('body').bind('touchmove', function(e){e.preventDefault()}); 
+ });
+
