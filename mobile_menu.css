@@ -29,7 +29,6 @@ html.toggleMenu, html.toggleMenu body {
     top:47px;
     position: absolute;
 } 
- .main-bar > .container{ position: relative;}
 /*.main-bar.is-invisible .main-nav{height:inherit;}*/
   
 }
